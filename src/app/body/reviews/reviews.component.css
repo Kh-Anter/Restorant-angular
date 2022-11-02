@@ -1,39 +1,64 @@
-.card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
+
+
+
+.Review{
+    text-align: center;
+    background-color: rgb(230, 217, 217);
+}
+#Rtitle{
+    font-size: 45px;
+    font-weight: bolder;
+}
+#Rtitle1{
+    color: rgb(238, 164, 5);
+}
+#Rtext1{
+    font-size: 16px;
+    color: rgb(173, 169, 169);
+    max-width: 44ch;
+    margin-inline: auto;
 
 }
 
-.text {
-    font-weight: bold;
-    font-size: 20px;
+.card{
+    margin-left: 100px;
 }
+.testi-card {
+    background-color:white;
+    padding: 40px;
+    text-align: left;
+    box-shadow: var(--shadow-2);
+    width: 360px;
+    display: inline-block;
 
-.text:hover {
-    background-color: orange;
 
-}
-
-.card-title:hover {
-    text-decoration: underline;
-}
-
-.container {
+  }
+  
+  .testi-card .profile-wrapper {
+    display: flex;
     align-items: center;
-    margin: auto
+    gap: 15px;
+  }
+  
+  .testi-card .avatar {
+    min-width: max-content;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+.checked{
+    padding: 1px;
+    color: rgb(238, 164, 5);
 }
-
-.btn {
-    margin: 15px;
-    align-self: right;
-
+.reviwtext{
+    color:gray;
+    font-weight: 500;
 }
-
-.fa-solid {
-    font-size: 20px;
+.reviewname{
+    font-weight: bold;
 }
+.reviewtitle{
+    font-weight:500;
+    color: rgb(167, 161, 161);
+    font-size: 14px;
 
-.fa-regular {
-    font-size: 20px;
 }
