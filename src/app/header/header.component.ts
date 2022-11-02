@@ -6,10 +6,37 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
-  }
+    var brand=document.querySelector(".brand");
+    var nav =document.querySelector("nav");
+    var navLink=document.querySelectorAll(".nav-link");
+    window.addEventListener("scroll",function(){
+      if(this.window.pageYOffset>100){
+        brand?.classList.remove("text-white");
+        brand?.classList.add("text-dark");
+        nav?.classList.add("bg-light")
+        nav?.classList.add("activeNav");
+        nav?.classList.remove("topNav");
+   
+       navLink.forEach((e)=>{
+        e.classList.remove("text-white");
+        e.classList.add("text-dark");
+       });
+      }else{
+        brand?.classList.remove("text-dark");
+        brand?.classList.add("text-white");
+        nav?.classList.remove("bg-light")
+        nav?.classList.add("topNav")
+        nav?.classList.add("activeNav");
+        navLink.forEach((e)=>{
+          e.classList.remove("text-dark");
+          e.classList.add("text-white");
+         });
+      }
+    });
 
+  }
 }
