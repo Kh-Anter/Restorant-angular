@@ -33,7 +33,7 @@
 }
 
 .cards::-webkit-scrollbar-track {
-    background: rgb(252, 2, 2)
+    background: rgb(153, 153, 153)
 }
 
 @media (min-width: 500px) {

@@ -1,15 +1,17 @@
 <p>aboutus works!</p>
-<div class="container ">
+<div class="container  mb-20">
     <div class="row ">
 
-        <div class="col-lg-6 " style="position: relative;">
+        <div class="col-lg-6  col-md-12 col-sm-12" style="position: relative;">
             <img class="img1" src="./assets/img/about-banner.png"
                 style="position:absolute;height:480px;  width: 550px;">
             <img class="img2 center " src="./assets/img/sale-shape-red.png"
                 style="position: relative; height:215px;  width:210px;">
 
         </div>
-        <div class="col-lg-6 ">
+
+        
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
             <h1 class="D-1 mb-4"><strong> Caferio, Burgers, and Best Pizzas <span style="color:  orange;">in
                         Town!</span></strong></h1>
             <h4 class="mb-4" style="color: grey; ">The restaurants in Hangzhou also catered to many northern Chinese who
@@ -30,3 +32,4 @@
 
 
     </div>
+    <app-popular-dishes [data]="" (item)="addtoCart($event)"></app-popular-dishes>
