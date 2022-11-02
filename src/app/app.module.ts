@@ -12,6 +12,7 @@ import { OfferComponent } from './body/offer/offer.component';
 import { BestDeliveryComponent } from './body/best-delivery/best-delivery.component';
 import { ReviewsComponent } from './body/reviews/reviews.component';
 import { AlloffersComponent } from './body/alloffers/alloffers.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { AlloffersComponent } from './body/alloffers/alloffers.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
