@@ -1,0 +1,39 @@
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+
+}
+
+.text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text:hover {
+    background-color: orange;
+
+}
+
+.card-title:hover {
+    text-decoration: underline;
+}
+
+.container {
+    align-items: center;
+    margin: auto
+}
+
+.btn {
+    margin: 15px;
+    align-self: right;
+
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+.fa-regular {
+    font-size: 20px;}
+    

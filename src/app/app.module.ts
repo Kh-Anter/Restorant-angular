@@ -24,11 +24,14 @@ import { AlloffersComponent } from './body/alloffers/alloffers.component';
     OfferComponent,
     BestDeliveryComponent,
     ReviewsComponent,
-    AlloffersComponent
+    AlloffersComponent,
+    PopularDishesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

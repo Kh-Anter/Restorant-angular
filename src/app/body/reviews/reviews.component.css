@@ -1,3 +1,6 @@
+
+
+
 .Review{
     text-align: center;
     background-color: rgb(230, 217, 217);
@@ -57,6 +60,7 @@
     font-weight:500;
     color: rgb(167, 161, 161);
     font-size: 14px;
+
 }
 .has-scrollbar {
     display: flex;

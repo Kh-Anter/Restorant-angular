@@ -1,1 +1,35 @@
 <p>aboutus works!</p>
+<div class="container  mb-20">
+    <div class="row ">
+
+        <div class="col-lg-6  col-md-12 col-sm-12" style="position: relative;">
+            <img class="img1" src="./assets/img/about-banner.png"
+                style="position:absolute;height:480px;  width: 550px;">
+            <img class="img2 center " src="./assets/img/sale-shape-red.png"
+                style="position: relative; height:215px;  width:210px;">
+
+        </div>
+
+        
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <h1 class="D-1 mb-4"><strong> Caferio, Burgers, and Best Pizzas <span style="color:  orange;">in
+                        Town!</span></strong></h1>
+            <h4 class="mb-4" style="color: grey; ">The restaurants in Hangzhou also catered to many northern Chinese who
+                had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many
+                restaurants were run by families. </h4>
+            <h4><i class="fa-solid fa-circle-check" style="color:  orange;"></i> &nbsp;<strong> Delicious & Healthy
+                    Foods</strong></h4>
+            <h4><i class="fa-solid fa-circle-check" style="color:  orange;"></i> &nbsp;<strong> Spacific Family And Kids
+                    Zone </strong> </h4>
+            <h4><i class="fa-solid fa-circle-check" style="color:  orange;"></i> &nbsp; <strong> Music & Other
+                    Facilities </strong> </h4>
+            <h4><i class="fa-solid fa-circle-check" style="color:  orange;"></i> &nbsp; <strong>Fastest Food Home
+                    Delivery </strong></h4>
+
+            <button type="button" class="btn btn-warning mt-4">Order Now</button>
+
+        </div>
+
+
+    </div>
+    <app-popular-dishes [data]="" (item)="addtoCart($event)"></app-popular-dishes>
