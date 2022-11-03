@@ -60,6 +60,7 @@
     position: relative;
     animation-name: example;
     animation-duration: 2s;
+    
 }
 @keyframes example {
     50%  {left:50px;}
