@@ -12,6 +12,8 @@ import { OfferComponent } from './body/offer/offer.component';
 import { BestDeliveryComponent } from './body/best-delivery/best-delivery.component';
 import { ReviewsComponent } from './body/reviews/reviews.component';
 import { AlloffersComponent } from './body/alloffers/alloffers.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { PopularDishesComponent } from './popular-dishes/popular-dishes.component';
 
 @NgModule({
   declarations: [
