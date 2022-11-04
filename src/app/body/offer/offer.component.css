@@ -37,7 +37,7 @@
 .imag{
   height: auto;
   width: 100%;
-  transform: scale(1.2) translateY(45px);
+  transform: scale(1.2) translateY(20px);
 }
 .off{
   position: absolute;
